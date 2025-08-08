@@ -1,0 +1,164 @@
+# Configurações Básicas do Site
+baseURL: "https://joelsonauta.blog"
+title: "Joelsonauta"
+theme: "PaperMod"
+languageCode: "pt-br"
+defaultContentLanguage: "pt"
+
+# Configurações Globais
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+# googleAnalytics: UA-123-45
+
+# Configurações de Minificação
+minify:
+  disableXML: true
+  minifyOutput: true
+
+# Parâmetros Principais
+params:
+  env: development
+  title: "Joelsonauta"
+  description: "Explorando o universo da tecnologia, programação e inovação. Um blog sobre desenvolvimento, ferramentas e descobertas digitais."
+  author: Joelson
+  DateFormat: "02 de January de 2006"
+  keywords: [
+    "Tecnologia",
+    "Programação",
+    "Desenvolvimento",
+    "Blog",
+    "Tutorial",
+    "Inovação",
+    "Software"
+  ]
+
+  # Configurações de Tema
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  # Configurações de Exibição de Posts
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  
+  # Configurações de TOC (Table of Contents)
+  UseHugoToc: true
+  showtoc: true
+  tocopen: false
+
+  # Configurações de Assets
+  assets:
+    disableHLJS: false
+    disableFingerprinting: false
+    # favicon: "/favicon.ico"
+    # favicon16x16: "/favicon-16x16.png"
+    # favicon32x32: "/favicon-32x32.png"
+    # apple_touch_icon: "/apple-touch-icon.png"
+    # safari_pinned_tab: "/safari-pinned-tab.svg"
+
+  # Configurações da Página Inicial
+  label:
+    text: "Home"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
+
+  homeInfoParams:
+    Title: "Olá, eu sou Joelson 👋"
+    Content: Bem-vindo ao **Joelsonauta**
+
+  # Redes Sociais
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/joelson91"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/joelsonauta"
+    - name: "rss"
+      url: "/index.xml"
+
+  # Configurações de Cover
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+    responsiveImages: true
+    linkFullImages: true
+
+  # Configurações de Edição de Posts
+  editPost:
+    URL: "https://github.com/joelson91/content"
+    Text: "Sugerir alterações"
+    appendFilePath: true
+
+  # Configurações de Busca
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu Principal
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: categories/
+      weight: 1
+    - identifier: search
+      name: Search
+      url: search/
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 3
+    - identifier: archive
+      name: Archive
+      url: archive/
+      weight: 4
+
+# Configurações de Sintaxe e Markdown
+pygmentsUseClasses: false
+pygmentsCodefences: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+    extensions:
+      linkify: false
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: false
+    tabWidth: 4
+    anchorLineNos: false
+
+# Configurações de Output
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

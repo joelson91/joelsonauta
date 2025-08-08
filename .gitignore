@@ -1,0 +1,38 @@
+# Hugo specific
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Executables
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Temporary files
+.DS_Store
+*.log
+tmp/
+temp/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Sistema operacional Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Node modules (caso use npm/node)
+node_modules/
+
+# Environment variables
+.env
+.env.*
