@@ -4,6 +4,7 @@ date: "{{ .Date }}"
 # weight: 1
 # aliases: ["/first"]
 tags: ["first"]
+categories: ["general"]
 draft: true
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
