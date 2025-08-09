@@ -1,8 +1,8 @@
 ---
-title: "Search" # in any language you want
+title: "Pesquisar" # in any language you want
 layout: "search" # necessary for search
 url: "/search"
-description: "Description for Search"
+description: "Busque entre os mais diversos assuntos no blog."
 summary: "search"
-placeholder: "placeholder text in search input box"
+placeholder: "Digite sua pesquisa"
 ---
