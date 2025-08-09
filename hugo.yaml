@@ -46,12 +46,12 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
-  hideSummary: false
+  hideSummary: true
 
   # Configurações de TOC (Table of Contents)
   UseHugoToc: true
@@ -97,7 +97,7 @@ params:
 
   # Configurações de Edição de Posts
   editPost:
-    URL: "https://github.com/joelson91/content"
+    URL: "https://github.com/joelson91/joelsonauta/tree/main/content"
     Text: "Sugerir alterações"
     appendFilePath: true
 
