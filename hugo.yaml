@@ -25,15 +25,16 @@ params:
   description: "Explorando o universo da tecnologia, programação e inovação. Um blog sobre desenvolvimento, ferramentas e descobertas digitais."
   author: Joelson
   DateFormat: "02 de January de 2006"
-  keywords: [
-    "Tecnologia",
-    "Programação",
-    "Desenvolvimento",
-    "Blog",
-    "Tutorial",
-    "Inovação",
-    "Software"
-  ]
+  keywords:
+    [
+      "Tecnologia",
+      "Programação",
+      "Desenvolvimento",
+      "Blog",
+      "Tutorial",
+      "Inovação",
+      "Software",
+    ]
 
   # Configurações de Tema
   defaultTheme: auto # dark, light
@@ -41,7 +42,7 @@ params:
 
   # Configurações de Exibição de Posts
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -52,7 +53,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  
+
   # Configurações de TOC (Table of Contents)
   UseHugoToc: true
   showtoc: true
@@ -62,28 +63,28 @@ params:
   assets:
     disableHLJS: false
     disableFingerprinting: false
-    # favicon: "/favicon.ico"
-    # favicon16x16: "/favicon-16x16.png"
-    # favicon32x32: "/favicon-32x32.png"
-    # apple_touch_icon: "/apple-touch-icon.png"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
     # safari_pinned_tab: "/safari-pinned-tab.svg"
 
   # Configurações da Página Inicial
   label:
     text: "Joelsonauta"
-    # icon: /apple-touch-icon.png
-    # iconHeight: 35
+    icon: /apple-touch-icon.png
+    iconHeight: 35
 
   homeInfoParams:
-    Title: "Olá, eu sou Joelson 👋"
-    Content: Bem-vindo ao **Joelsonauta**
+    Title: "Olá 👋"
+    Content: Boas-vindas ao blog **Joelsonauta**. Um espaço de anotação de ideias.
 
   # Redes Sociais
   socialIcons:
     - name: "github"
       url: "https://github.com/joelson91"
     - name: "linkedin"
-      url: "https://linkedin.com/in/joelsonauta"
+      url: "https://www.linkedin.com/in/joelson91"
     - name: "rss"
       url: "/index.xml"
 
@@ -115,7 +116,7 @@ params:
 # Menu Principal
 menu:
   main:
-    - identifier: categories
+    - identifier: categorias
       name: Categorias
       url: categories/
       weight: 1
@@ -123,13 +124,13 @@ menu:
       name: Pesquisar
       url: search/
       weight: 2
-    - identifier: tags
-      name: Tags
-      url: tags/
-      weight: 3
     - identifier: archive
       name: Arquivo
       url: archive/
+      weight: 3
+    - identifier: about
+      name: Sobre
+      url: about/
       weight: 4
 
 # Configurações de Sintaxe e Markdown
@@ -162,3 +163,4 @@ outputs:
     - HTML
     - RSS
     - JSON
+
