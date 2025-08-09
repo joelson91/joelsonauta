@@ -1,5 +1,5 @@
 # Configurações Básicas do Site
-baseURL: "https://joelsonauta.blog"
+baseURL: "https://joelsonauta.netlify.app"
 title: "Joelsonauta"
 theme: "PaperMod"
 languageCode: "pt-br"
@@ -48,7 +48,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   hidemeta: false
@@ -112,6 +112,9 @@ params:
     minMatchCharLength: 0
     limit: 10
     keys: ["title", "permalink", "summary", "content"]
+  
+  # Configuração de link de cabeçalho
+  disableAnchoredHeadings: true
 
 # Menu Principal
 menu:
