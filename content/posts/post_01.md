@@ -1,5 +1,6 @@
 ---
 title: "Hello World"
+slug: "hello-world"
 date: "2025-08-09T11:46:04-03:00"
 tags: ["blog"]
 draft: false
