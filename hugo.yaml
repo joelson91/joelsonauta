@@ -20,7 +20,6 @@ minify:
 
 # Parâmetros Principais
 params:
-  env: development
   title: "Joelsonauta"
   description: "Explorando o universo da tecnologia, programação e inovação. Um blog sobre desenvolvimento, ferramentas e descobertas digitais."
   author: Joelson
