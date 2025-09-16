@@ -10,7 +10,7 @@ disableShare: false
 searchHidden: false
 ---
 
-Pesquisando por um dataset fácil de entender, encontrei um sobre pedidos de restarante. O objetivo seria uma análise exploratória de dados, famoso EDA.
+Pesquisando por um dataset fácil de entender, encontrei um sobre pedidos de restaurante. O objetivo seria uma análise exploratória de dados, famoso EDA.
 
 O dataset conta com informações sobre pedidos de um restaurante como:
 
