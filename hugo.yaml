@@ -6,7 +6,7 @@ languageCode: "pt-br"
 defaultContentLanguage: "pt"
 
 # Configurações Globais
-enableRobotsTXT: true
+enableRobotsTXT: false
 buildDrafts: false
 buildFuture: false
 buildExpired: false
