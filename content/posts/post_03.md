@@ -4,7 +4,7 @@ slug: "o-basico-de-machine-learning"
 date: "2025-10-08T09:48:51-03:00"
 tags: ["machine learning", "data analysis"]
 categories: ["conceitual"]
-draft: true
+draft: false
 description: "Desc Text."
 disableShare: false
 searchHidden: false
