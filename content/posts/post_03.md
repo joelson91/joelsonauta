@@ -5,7 +5,6 @@ date: "2025-10-08T09:48:51-03:00"
 tags: ["machine learning", "data analysis"]
 categories: ["conceitual"]
 draft: false
-description: "Desc Text."
 disableShare: false
 searchHidden: false
 ---
